@@ -1,0 +1,10 @@
+*.gem
+.bundle
+.rspec
+config/blazing.rb
+config/mongoid.yml
+config/settings.local.yml
+pkg/*
+public/*
+tmp/*
+vendor/bundle/*

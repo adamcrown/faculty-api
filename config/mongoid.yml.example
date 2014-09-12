@@ -1,0 +1,35 @@
+development:
+  sessions:
+    default:
+      database: faculty_api_development
+      hosts:
+        - localhost:27017
+
+test:
+  sessions:
+    default:
+      database: faculty_api_test
+      hosts:
+        - localhost:27017
+
+staging:
+  sessions:
+    default:
+      database: faculty_api
+      hosts:
+        - mongo1.staging.biola.edu:27017
+        - mongo2.staging.biola.edu:27017
+        - mongo3.staging.biola.edu:27017
+      username: faculty_api
+      password: "*************"
+
+production:
+  sessions:
+    default:
+      database: faculty_api
+      hosts:
+        - mongo1.prod.biola.edu:27017
+        - mongo2.prod.biola.edu:27017
+        - mongo3.prod.biola.edu:27017
+      username: faculty_api
+      password: "*************"

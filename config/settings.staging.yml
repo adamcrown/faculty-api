@@ -1,0 +1,5 @@
+url:
+  scheme: https
+  host: faculty.staging.biola.edu
+  port: 80
+  path:
